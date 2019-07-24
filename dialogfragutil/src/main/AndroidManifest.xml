@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhengx.dialogfragutil" >
+
+    <application>
+        <provider
+            android:authorities="${applicationId}.fdialogutil.provider"
+            android:name="com.zhengx.dialogfragutil.InitProvider"
+            android:multiprocess="true"
+            android:exported="false"/>
+    </application>
+</manifest>
